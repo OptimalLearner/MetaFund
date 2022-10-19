@@ -7,7 +7,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 function Footer() {
     return (
-        <footer>
+        <footer className="font-sans">
             <div className="bg-[#111111] text-center">
                 <div className="p-4">
                     <div className="mb-4 flex justify-center">

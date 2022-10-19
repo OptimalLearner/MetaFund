@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import {
     Navbar,
     MobileNav,
@@ -25,7 +26,7 @@ const Nav = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#" className="flex items-center"> Home </a>
+                <Link href="#" className="flex items-center" to="/"> Home </Link>
             </Typography>
             <Typography
                 as="li"
@@ -33,7 +34,7 @@ const Nav = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#" className="flex items-center"> Fundraise for </a>
+                <Link href="#" className="flex items-center"> Fundraise for </Link>
             </Typography>
             <Typography
                 as="li"
@@ -41,7 +42,7 @@ const Nav = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#" className="flex items-center"> About us </a>
+                <Link href="#" className="flex items-center" to="/about"> About us </Link>
             </Typography>
             <Typography
                 as="li"
@@ -49,7 +50,7 @@ const Nav = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#" className="flex items-center"> How it works </a>
+                <Link href="#" className="flex items-center"> How it works </Link>
             </Typography>
             <Typography
                 as="li"
@@ -57,7 +58,7 @@ const Nav = () => {
                 color="tan"
                 className="p-1 font-normal text-tan"
             >
-                <a href="#" className="flex items-center"> Contact us </a>
+                <Link href="#" className="flex items-center"> Contact us </Link>
             </Typography>
         </ul>
     );
