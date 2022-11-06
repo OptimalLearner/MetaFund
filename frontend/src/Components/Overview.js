@@ -11,7 +11,7 @@ function Overview() {
                     MetaFund aims to be utilized by Indians to raise funds from friends, family and a wider social network for medical needs, loved ones and charity on a daily basis. MetaFund will soon become the go-to platform for funding early stage startups that provide tokens in return of the amount invested by the investors. </span>
                 </div>
                 <div className="w-full md:w-[50%] mr-[10%] flex justify-center items-center">
-                    <img src="https://www.impactbnd.com/hubfs/blog-image-uploads/best-about-us-pages.jpg" alt="Vector Image" className="w-[90%]" />
+                    <img src="https://www.paulthetall.com/wp-content/uploads/2022/08/A180724_Crowdfunding-illustratie.jpg" alt="Vector Image" className="w-[100%] h-[300px] rounded-[10px]" />
                 </div>
             </div>
         </div>
