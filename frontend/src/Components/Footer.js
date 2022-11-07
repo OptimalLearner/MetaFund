@@ -11,19 +11,19 @@ function Footer() {
             <div className="bg-[#111111] text-center">
                 <div className="p-4">
                     <div className="mb-4 flex justify-center">
-                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream">
+                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-[#111111]">
                             <FacebookTwoToneIcon sx={{ fontSize: "30px" }} />
                         </div>
-                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream">
+                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-[#111111]">
                             <TwitterIcon sx={{ fontSize: "30px" }} />
                         </div>
-                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream">
+                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-[#111111]">
                             <InstagramIcon sx={{ fontSize: "30px" }} />
                         </div>
-                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream">
+                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-[#111111]">
                             <YouTubeIcon sx={{ fontSize: "30px" }} />
                         </div>
-                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream">
+                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-[#111111]">
                             <LinkedInIcon sx={{ fontSize: "30px" }} />
                         </div>
                     </div>
@@ -37,7 +37,7 @@ function Footer() {
                                     <input type='email' placeholder='Email address' className="mb-4 bg-[#111111] text-mint-cream border-2 border-mint-cream px-[10px] py-[5px] w-[450px] rounded-[5px]" />
                                 </div>
                                 <div className="mx-[10px]">
-                                    <button type='button' className="mb-4 text-[#111111] bg-mint-cream border-2 border-mint-cream px-[20px] py-[5px] rounded-[5px] font-bold"> Subscribe </button>
+                                    <button type='button' className="mb-4 text-[#111111] bg-mint-cream border-2 border-mint-cream px-[20px] py-[5px] rounded-[5px] font-bold hover:border-blue-purple hover:bg-blue-purple"> Subscribe </button>
                                 </div>
                             </div>
                         </form>
@@ -49,16 +49,16 @@ function Footer() {
 
                                 <ul className='list-unstyled mb-0 text-[16px]'>
                                     <li>
-                                        <a href='#!' className='text-white'> Medical </a>
+                                        <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Medical </a>
                                     </li>
                                     <li>
-                                        <a href='#!' className='text-white'> Education </a>
+                                        <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Education </a>
                                     </li>
                                     <li>
-                                    <a href='#!' className='text-white'> Non-Profits </a>
+                                    <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Non-Profits </a>
                                     </li>
                                     <li>
-                                    <a href='#!' className='text-white'> Startups </a>
+                                    <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Startups </a>
                                     </li>
                                 </ul>
                             </div>
@@ -67,16 +67,16 @@ function Footer() {
 
                                 <ul className='list-unstyled mb-0 text-[16px]'>
                                     <li>
-                                        <a href='#!' className='text-white'> What do we do </a>
+                                        <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> What do we do </a>
                                     </li>
                                     <li>
-                                        <a href='#!' className='text-white'> Team MetaFund </a>
+                                        <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Team MetaFund </a>
                                     </li>
                                     <li>
-                                    <a href='#!' className='text-white'> In The News </a>
+                                    <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> In The News </a>
                                     </li>
                                     <li>
-                                    <a href='#!' className='text-white'> Terms and Condition </a>
+                                    <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Terms and Condition </a>
                                     </li>
                                 </ul>
                             </div>
@@ -85,16 +85,16 @@ function Footer() {
 
                                 <ul className='list-unstyled mb-0 text-[16px]'>
                                     <li>
-                                        <a href='#!' className='text-white'> Connect Wallet </a>
+                                        <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Connect Wallet </a>
                                     </li>
                                     <li>
-                                        <a href='#!' className='text-white'> How to Create Campaigns? </a>
+                                        <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> How to Create Campaigns? </a>
                                     </li>
                                     <li>
-                                    <a href='#!' className='text-white'> How to Fund Campaigns? </a>
+                                    <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> How to Fund Campaigns? </a>
                                     </li>
                                     <li>
-                                    <a href='#!' className='text-white'> Fundraising Tips </a>
+                                    <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Fundraising Tips </a>
                                     </li>
                                 </ul>
                             </div>
@@ -104,16 +104,16 @@ function Footer() {
 
                                 <ul className='list-unstyled mb-0 text-[16px]'>
                                     <li>
-                                        <a href='#!' className='text-white'> Contact Us </a>
+                                        <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Contact Us </a>
                                     </li>
                                     <li>
-                                        <a href='#!' className='text-white'> Trust and Safety </a>
+                                        <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Trust and Safety </a>
                                     </li>
                                     <li>
-                                    <a href='#!' className='text-white'> FAQs and Help Center </a>
+                                    <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> FAQs and Help Center </a>
                                     </li>
                                     <li>
-                                    <a href='#!' className='text-white'> Reviews </a>
+                                    <a href='#!' className='text-white hover:text-blue-purple hover:font-medium'> Reviews </a>
                                     </li>
                                 </ul>
                             </div>
