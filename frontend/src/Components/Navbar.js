@@ -58,7 +58,7 @@ const Nav = () => {
                 color="tan"
                 className="p-1 font-normal text-tan"
             >
-                <Link href="#" className="flex items-center"> Contact us </Link>
+                <Link href="#" className="flex items-center" to="/contact"> Contact us </Link>
             </Typography>
         </ul>
     );
