@@ -1,0 +1,3 @@
+node# Below Listed Files and Folders will be ignored
+node_modules
+.env
