@@ -4,7 +4,7 @@ import user from '../Images/user_avatar.jpg';
 function MeetOurTeam() {
     return (
         <div>
-            <div className="flex items-center flex-col justify-center text-center w-[100%] h-[550px] md:py-[20px] bg-mint-cream overflow-hidden">
+            <div className="flex items-center flex-col justify-center text-center w-[100%] h-[550px] md:py-[20px] bg-white text-black overflow-hidden">
                 <div>
                     <h2 className="text-[32px] mt-[25px] mb-[45px] font-semibold"> Meet Our Team </h2>
                 </div>

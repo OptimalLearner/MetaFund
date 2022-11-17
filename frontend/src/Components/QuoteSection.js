@@ -4,7 +4,7 @@ import img from '../Images/together.jpg';
 function QuoteSection() {
     return (
         <div>
-            <div className="flex flex-row h-[80vh] bg-mint-cream pt-[10vh] pb-[5vh] font-sans">
+            <div className="flex flex-row h-[80vh] bg-white text-black pt-[10vh] pb-[5vh] font-sans">
                 <div className="w-full md:w-[60%] mx-[10%] flex justify-center items-center">
                     <img src={img} alt="Vector Image" className="w-[600px]" />
                 </div>

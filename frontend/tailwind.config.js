@@ -7,7 +7,8 @@ module.exports = {
     colors: {
       'minion-yellow': '#FCE762',
       'blue-purple': '#BCB6FF',
-      'mint-cream': '#F4FFF8',
+      'white': '#FFFFFF',
+      'black': '#111111',
       'dark-slate-blue': '#4F4789',
       'dark-purple': '#201335',
       'platinum': '#E7e7e7'

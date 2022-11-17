@@ -8,22 +8,22 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 function Footer() {
     return (
         <footer className="font-sans">
-            <div className="bg-[#111111] text-center">
+            <div className="bg-black text-center">
                 <div className="p-4">
                     <div className="mb-4 flex justify-center">
-                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-[#111111]">
+                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-white text-white cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-black">
                             <FacebookTwoToneIcon sx={{ fontSize: "30px" }} />
                         </div>
-                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-[#111111]">
+                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-white text-white cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-black">
                             <TwitterIcon sx={{ fontSize: "30px" }} />
                         </div>
-                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-[#111111]">
+                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-white text-white cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-black">
                             <InstagramIcon sx={{ fontSize: "30px" }} />
                         </div>
-                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-[#111111]">
+                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-white text-white cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-black">
                             <YouTubeIcon sx={{ fontSize: "30px" }} />
                         </div>
-                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-mint-cream text-mint-cream cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-[#111111]">
+                        <div className="m-5 p-[10px] rounded-[50%] border-2 border-white text-white cursor-pointer hover:border-blue-purple hover:bg-blue-purple hover:text-black">
                             <LinkedInIcon sx={{ fontSize: "30px" }} />
                         </div>
                     </div>
@@ -31,19 +31,19 @@ function Footer() {
                         <form>
                             <div className='flex justify-center align-center'>
                                 <div className="mx-[10px]">
-                                    <p className="pt-2 text-mint-cream text-[18px]"> Sign up for our newsletter </p>
+                                    <p className="pt-2 text-white text-[18px]"> Sign up for our newsletter </p>
                                 </div>
                                 <div className="mx-[10px]">
-                                    <input type='email' placeholder='Email address' className="mb-4 bg-[#111111] text-mint-cream border-2 border-mint-cream px-[10px] py-[5px] w-[450px] rounded-[5px]" />
+                                    <input type='email' placeholder='Email address' className="mb-4 bg-black text-white border-2 border-white px-[10px] py-[5px] w-[450px] rounded-[5px]" />
                                 </div>
                                 <div className="mx-[10px]">
-                                    <button type='button' className="mb-4 text-[#111111] bg-mint-cream border-2 border-mint-cream px-[20px] py-[5px] rounded-[5px] font-bold hover:border-blue-purple hover:bg-blue-purple"> Subscribe </button>
+                                    <button type='button' className="mb-4 text-black bg-white border-2 border-white px-[20px] py-[5px] rounded-[5px] font-bold hover:border-blue-purple hover:bg-blue-purple"> Subscribe </button>
                                 </div>
                             </div>
                         </form>
                     </section>
                     <section>
-                        <div className="flex w-[75%] mx-[12.5%] text-mint-cream justify-between align-center flex-row mt-[20px]">
+                        <div className="flex w-[75%] mx-[12.5%] text-white justify-between align-center flex-row mt-[20px]">
                             <div className='mb-4 mb-md-0 flex flex-col'>
                                 <h5 className='text-[20px] font-bold mb-[10px]'> CAUSES </h5>
 
@@ -122,7 +122,7 @@ function Footer() {
                 </div>
             </div>
             <div className="bg-[#000000] py-[20px] flex justify-center items-center">
-                <span className="text-mint-cream text-[18px]"> &copy; MetaFund 2022 | All Rights Reserved </span>
+                <span className="text-white text-[18px]"> &copy; MetaFund 2022 | All Rights Reserved </span>
             </div>
         </footer>
     )

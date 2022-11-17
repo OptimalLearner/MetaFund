@@ -3,7 +3,7 @@ import React from 'react'
 function Overview() {
     return (
         <div>
-            <div className="flex flex-row h-[100vh] bg-mint-cream pt-[10vh] pb-[5vh] font-sans">
+            <div className="flex flex-row h-[100vh] bg-white text-black pt-[10vh] pb-[5vh] font-sans">
                 <div className="w-full md:w-[60%] mx-[10%] text-justify flex justify-center flex-col">
                     <span className="text-[28px] mb-[10px] font-semibold"> About Us </span>
                     <span className="text-[18px] mb-[25px]"> MetaFund is an online crowdfunding blockchain based platform that enables anyone across India to raise funds for healthcare, education, disaster relief, startups and non-profits, with great ease. Founded in 2022 by a team of three young and passionate engineer-cum-entrepreneurs, MetaFund aims to help in the development of each and every person in need in India.

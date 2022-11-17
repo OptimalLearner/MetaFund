@@ -60,7 +60,7 @@ function SignedInNavbar() {
                     <div className="hidden lg:block">
                         {navList}
                     </div>
-                    <Button variant="gradient" size="sm" className="hidden lg:block bg-mint-cream ml-5 px-4 py-2 rounded-[5px]">
+                    <Button variant="gradient" size="sm" className="hidden lg:block bg-white ml-5 px-4 py-2 rounded-[5px]">
                         <span>Wallet Connected</span>
                     </Button>
                     <IconButton
@@ -103,7 +103,7 @@ function SignedInNavbar() {
                 </div>
                 <MobileNav open={openNav}>
                     {navList}
-                    <Button variant="gradient" size="sm" fullWidth className="mb-2 bg-mint-cream">
+                    <Button variant="gradient" size="sm" fullWidth className="mb-2 bg-white">
                     <span>Wallet Connected</span>
                     </Button>
                 </MobileNav>

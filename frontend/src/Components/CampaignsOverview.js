@@ -4,7 +4,7 @@ import img from '../Images/together.jpg';
 function CampaignsOverview() {
     return (
         <div className="relative overflow-hidden">
-            <div className="flex flex-col justify-center text-center items-center w-[100vw] h-[110vh] md:px-[40px] md:py-[25px] bg-mint-cream font-sans">
+            <div className="flex flex-col justify-center text-center items-center w-[100vw] h-[110vh] md:px-[40px] md:py-[25px] bg-white text-black font-sans">
                 <div>
                     <h2 className="text-[32px] mb-[15px] font-semibold"> Decentralized For A Better Tomorrow </h2>
                     <span className="text-[18px]"> Find the cause and change the world </span>
@@ -76,7 +76,7 @@ function CampaignsOverview() {
                             <p className="text-[17px] mt-[10px]"> 5 MAT out of 50 MAT raised </p>
                             <div className="h-[25px] w-[100%] bg-platinum mt-[5px] mb-[10px] rounded-[40px] shadow-1xl">
                                 <div className="h-[100%] w-[20%] bg-blue-purple rounded-[40px] text-center">
-                                    <span className="p-[20px] font-bolder text-[#000000]"> 10% </span>
+                                    <span className="p-[20px] font-bolder text-black"> 10% </span>
                                 </div>
                             </div>
                             <div className="flex flex-row justify-between">

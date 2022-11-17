@@ -17,9 +17,9 @@ function ContactForm() {
 
                     <div className="w-full h-[400px] bg-[#FFF] md:w-[50%] ml-[15px] mr-[5%] pt-[25px] flex flex-col rounded-[5px]">
                         <h2 className="text-[24px] font-semibold mb-[25px] mx-[10%]"> Get in touch! </h2>
-                        <input type='text' placeholder='Enter your name' className="mb-[30px] bg-[#FFF] text-[#111111] border-2 border-[#11111199] px-[10px] py-[5px] w-[80%] mx-[10%] rounded-[5px]" />
-                        <input type='email' placeholder='Enter a valid email address' className="mb-[30px] bg-[#FFF] text-[#111111] border-2 border-[#11111199] px-[10px] py-[5px] w-[80%] mx-[10%] rounded-[5px]" />
-                        <textarea placeholder="Enter your message" className="mb-[30px] bg-[#FFF] text-[#111111] border-2 border-[#11111199] px-[10px] py-[5px] w-[80%] mx-[10%] rounded-[5px] "></textarea>
+                        <input type='text' placeholder='Enter your name' className="mb-[30px] bg-[#FFF] text-black border-2 border-[#11111199] px-[10px] py-[5px] w-[80%] mx-[10%] rounded-[5px]" />
+                        <input type='email' placeholder='Enter a valid email address' className="mb-[30px] bg-[#FFF] text-black border-2 border-[#11111199] px-[10px] py-[5px] w-[80%] mx-[10%] rounded-[5px]" />
+                        <textarea placeholder="Enter your message" className="mb-[30px] bg-[#FFF] text-black border-2 border-[#11111199] px-[10px] py-[5px] w-[80%] mx-[10%] rounded-[5px] "></textarea>
                         <button className="w-[180px] bg-blue-purple py-[10px] px-[50px] rounded-[5px] mx-[10%]"> Submit </button>
                     </div>
                 </div>

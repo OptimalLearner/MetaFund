@@ -6,7 +6,7 @@ import trustImg from '../Images/trust.svg';
 function MoreReasons() {
     return (
         <div>
-            <div className="flex items-center flex-col justify-center text-center w-[100%] h-[700px] md:py-[20px] bg-blue-purple overflow-hidden">
+            <div className="flex items-center flex-col justify-center text-center w-[100%] h-[700px] md:py-[20px] bg-blue-purple text-black overflow-hidden">
                 <div>
                     <h2 className="text-[32px] mb-[45px] font-semibold"> More Reasons To Love MetaFund </h2>
                 </div>

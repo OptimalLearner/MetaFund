@@ -9,7 +9,7 @@ import CelebrationIcon from '@mui/icons-material/Celebration';
 function Services() {
     return (
         <div className="">
-            <div className="flex flex-col justify-center items-center h-[100vh] bg-blue-purple pt-[10vh] pb-[5vh] font-sans">
+            <div className="flex flex-col justify-center items-center h-[100vh] bg-blue-purple text-black pt-[10vh] pb-[5vh] font-sans">
                     <div>
                         <h2 className="text-[32px] mb-[5px] font-semibold"> Our Services </h2>
                     </div>

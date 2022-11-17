@@ -3,9 +3,9 @@ import React from 'react';
 const Values = () => {
     return (
         <div className="relative overflow-hidden">
-            <div className="w-0 h-0 border-l-[49.5vw] border-l-mint-cream border-t-[90vh] border-t-blue-purple border-r-[49.5vw] border-r-mint-cream"></div>
-            <div className="flex flex-row justify-center items-center bg-mint-cream font-sans">
-                <div className="flex text-center w-[70vw] md:px-[40px] md:py-[25px] bg-mint-cream flex flex-col shadow-1xl rounded-[5px] absolute top-[15%] left-[50%] translate-x-[-50%]">
+            <div className="w-0 h-0 border-l-[49.5vw] border-l-white border-t-[90vh] border-t-blue-purple border-r-[49.5vw] border-r-white"></div>
+            <div className="flex flex-row justify-center items-center bg-white font-sans text-black">
+                <div className="flex text-center w-[70vw] md:px-[40px] md:py-[25px] bg-white flex flex-col shadow-1xl rounded-[5px] absolute top-[15%] left-[50%] translate-x-[-50%]">
                     <div>
                         <h2 className="text-[32px] mb-[15px] font-semibold"> Our Values </h2>
                         <span className="text-[18px]"> With simplicity at the core of our prioirties, we aim to make your journey as easy and enjoyable as possible by improving every component involved in crowdfunding </span>
