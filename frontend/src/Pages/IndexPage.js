@@ -7,10 +7,10 @@ import QuoteSection from '../Components/QuoteSection';
 import Services from '../Components/Services';
 import Values from '../Components/Values';
 
-const Index = () => {
+const Index = ({connectWalletHandler}) => {
     return (
         <div>
-            <Nav />
+            <Nav connectWalletHandler={connectWalletHandler} />
             <InfoSection />
             <Values />
             <QuoteSection />

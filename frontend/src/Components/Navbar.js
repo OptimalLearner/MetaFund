@@ -8,7 +8,7 @@ import {
     IconButton,
 } from "@material-tailwind/react";
 
-const Nav = () => {
+const Nav = ({connectWalletHandler, connButtonText}) => {
     const [openNav, setOpenNav] = useState(false);
  
     useEffect(() => {
@@ -76,7 +76,7 @@ const Nav = () => {
                     <div className="hidden lg:block">
                         {navList}
                     </div>
-                    <Button variant="gradient" size="sm" className="hidden lg:block bg-white text-black ml-5 px-4 py-2 rounded-[5px]">
+                    <Button variant="gradient" size="sm" className="hidden lg:block bg-white text-black ml-5 px-4 py-2 rounded-[5px]" onClick={connectWalletHandler}>
                         <span>Connect Wallet</span>
                     </Button>
                     <IconButton
@@ -119,7 +119,7 @@ const Nav = () => {
                 </div>
                 <MobileNav open={openNav}>
                     {navList}
-                    <Button variant="gradient" size="sm" fullWidth className="mb-2 bg-white">
+                    <Button variant="gradient" size="sm" fullWidth className="mb-2 bg-white" onClick={connectWalletHandler}>
                     <span>Connect Wallet</span>
                     </Button>
                 </MobileNav>
