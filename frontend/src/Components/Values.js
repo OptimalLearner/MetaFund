@@ -12,15 +12,15 @@ const Values = () => {
                     </div>
                     <div className="flex flex-row my-[40px]">
                         <div className="flex flex-col shadow-1xl w-[30%] mx-[2.5%] rounded-[5px]">
-                            <span class="material-symbols-outlined text-[80px] py-[25px]">medical_services</span>
+                            <span className="material-symbols-outlined text-[80px] py-[25px]">medical_services</span>
                             <span className="text-[18px] pb-[15px]"> Donate for medical aid </span>
                         </div>
                         <div className="flex flex-col shadow-1xl w-[30%] mx-[2.5%] rounded-[5px]">
-                            <span class="material-symbols-outlined text-[80px] py-[25px]">menu_book</span>
+                            <span className="material-symbols-outlined text-[80px] py-[25px]">menu_book</span>
                             <span className="text-[18px] pb-[15px]"> Help the needy with their education </span>
                         </div>
                         <div className="flex flex-col shadow-1xl w-[30%] mx-[2.5%] rounded-[5px]">
-                            <span class="material-symbols-outlined text-[80px] py-[25px]">account_balance</span>
+                            <span className="material-symbols-outlined text-[80px] py-[25px]">account_balance</span>
                             <span className="text-[18px] pb-[15px]"> Invest in new startups </span>
                         </div>
                     </div>

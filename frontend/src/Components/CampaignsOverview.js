@@ -23,10 +23,10 @@ function CampaignsOverview() {
                             </div>
                             <div className="flex flex-row justify-between">
                                 <div className="flex jusify-center text-[15px]">
-                                    <span class="material-symbols-outlined mr-[5px]"> schedule </span> <span> 6 Days Left </span>
+                                    <span className="material-symbols-outlined mr-[5px]"> schedule </span> <span> 6 Days Left </span>
                                 </div>
                                 <div className="flex jusify-center text-[15px]">
-                                    <span class="material-symbols-outlined mr-[5px]"> favorite </span> <span> 45 Supporters </span>
+                                    <span className="material-symbols-outlined mr-[5px]"> favorite </span> <span> 45 Supporters </span>
                                 </div>
                             </div>
                             <div className="flex flex-row justify-between mt-[20px]">
@@ -52,10 +52,10 @@ function CampaignsOverview() {
                             </div>
                             <div className="flex flex-row justify-between">
                                 <div className="flex jusify-center text-[15px]">
-                                    <span class="material-symbols-outlined mr-[5px]"> schedule </span> <span> 14 Days Left </span>
+                                    <span className="material-symbols-outlined mr-[5px]"> schedule </span> <span> 14 Days Left </span>
                                 </div>
                                 <div className="flex jusify-center text-[15px]">
-                                    <span class="material-symbols-outlined mr-[5px]"> favorite </span> <span> 63 Supporters </span>
+                                    <span className="material-symbols-outlined mr-[5px]"> favorite </span> <span> 63 Supporters </span>
                                 </div>
                             </div>
                             <div className="flex flex-row justify-between mt-[20px]">
@@ -81,10 +81,10 @@ function CampaignsOverview() {
                             </div>
                             <div className="flex flex-row justify-between">
                                 <div className="flex jusify-center text-[15px]">
-                                    <span class="material-symbols-outlined mr-[5px]"> schedule </span> <span> 30 Days Left </span>
+                                    <span className="material-symbols-outlined mr-[5px]"> schedule </span> <span> 30 Days Left </span>
                                 </div>
                                 <div className="flex jusify-center text-[15px]">
-                                    <span class="material-symbols-outlined mr-[5px]"> favorite </span> <span> 15 Supporters </span>
+                                    <span className="material-symbols-outlined mr-[5px]"> favorite </span> <span> 15 Supporters </span>
                                 </div>
                             </div>
                             <div className="flex flex-row justify-between mt-[20px]">

@@ -8,11 +8,11 @@ function CampaignSection() {
                 <input type='text' placeholder='Search For Fundraisers' className="mb-[15px] bg-white text-black border-2 border-black px-[20px] py-[10px] w-[600px] rounded-[5px]" />
                 <div className="flex items-center mt-[25px]">
                     <span className="mr-[15px] text-[18px]"> Filter out fundraisers based on the type of cause </span>
-                    <span class="bg-blue-purple text-black text-[18px] font-medium mx-[5px] px-[15px] py-[2.5px] rounded">All</span>
-                    <span class="bg-blue-purple text-black text-[18px] font-medium mx-[5px] px-[15px] py-[2.5px] rounded">Education</span>
-                    <span class="bg-blue-purple text-black text-[18px] font-medium mx-[5px] px-[15px] py-[2.5px] rounded">Medical</span>
-                    <span class="bg-blue-purple text-black text-[18px] font-medium mx-[5px] px-[15px] py-[2.5px] rounded">NGOs</span>
-                    <span class="bg-blue-purple text-black text-[18px] font-medium mx-[5px] px-[15px] py-[2.5px] rounded">Startups</span>
+                    <span className="bg-blue-purple text-black text-[18px] font-medium mx-[5px] px-[15px] py-[2.5px] rounded">All</span>
+                    <span className="bg-blue-purple text-black text-[18px] font-medium mx-[5px] px-[15px] py-[2.5px] rounded">Education</span>
+                    <span className="bg-blue-purple text-black text-[18px] font-medium mx-[5px] px-[15px] py-[2.5px] rounded">Medical</span>
+                    <span className="bg-blue-purple text-black text-[18px] font-medium mx-[5px] px-[15px] py-[2.5px] rounded">NGOs</span>
+                    <span className="bg-blue-purple text-black text-[18px] font-medium mx-[5px] px-[15px] py-[2.5px] rounded">Startups</span>
                 </div>
             </div>
             <div className="flex flex-row justify-center my-[20px] flex-wrap">
