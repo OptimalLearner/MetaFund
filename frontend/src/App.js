@@ -5,6 +5,7 @@ import Index from "./Pages/IndexPage";
 import ContactUs from "./Pages/ContactUsPage";
 
 import CampaignListPage from "./Pages/CampaignListPage";
+import MyDonationsPage from "./Pages/MyDonationsPage";
 import {ethers} from 'ethers';
 
 function App() {
@@ -65,11 +66,13 @@ function App() {
         		<Routes>
 					<Route exact path="/" element={<Index connectWalletHandler={connectWalletHandler} connButtonText={connButtonText} />} />
 					<Route path="/about" element={<AboutUs />} />
-					<Route path="/contact" element={<ContactUs />} />
+					<Route path="/contact" element={<ContactUs connectWalletHandler={connectWalletHandler} defaultAccount={defaultAccount}/>} />
 				</Routes>
 			:
 				<Routes>
 					<Route exact path="/" element={<CampaignListPage connectWalletHandler={connectWalletHandler} connButtonText={connButtonText} />} />
+					<Route exact path="/my-donations" element={<MyDonationsPage connectWalletHandler={connectWalletHandler} connButtonText={connButtonText} />} />
+					<Route path="/contact" element={<ContactUs connectWalletHandler={connectWalletHandler} defaultAccount={defaultAccount} />} />
 				</Routes>
 			}
       		</Router>

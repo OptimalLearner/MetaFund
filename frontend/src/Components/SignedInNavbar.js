@@ -26,7 +26,7 @@ function SignedInNavbar() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link href="#" className="flex items-center"> Browse Campaigns </Link>
+                <Link href="#" className="flex items-center" to="/"> Browse Campaigns </Link>
             </Typography>
             <Typography
                 as="li"
@@ -42,7 +42,7 @@ function SignedInNavbar() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link href="#" className="flex items-center"> My Donations </Link>
+                <Link href="#" className="flex items-center" to="/my-donations"> My Donations </Link>
             </Typography>
             <Typography
                 as="li"
@@ -50,7 +50,7 @@ function SignedInNavbar() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link href="#" className="flex items-center"> Contact Us </Link>
+                <Link href="#" className="flex items-center" to="/contact"> Contact Us </Link>
             </Typography>
         </ul>
     );
