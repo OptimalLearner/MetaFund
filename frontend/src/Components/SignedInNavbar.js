@@ -34,7 +34,7 @@ function SignedInNavbar() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link href="#" className="flex items-center"> My Campaigns </Link>
+                <Link href="#" className="flex items-center" to="/my-campaigns"> My Campaigns </Link>
             </Typography>
             <Typography
                 as="li"
