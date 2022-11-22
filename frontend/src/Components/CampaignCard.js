@@ -3,7 +3,8 @@ import React from 'react';
 function CampaignCard() {
     return (
         <div>
-            <div className="flex flex-col text-left shadow-3xl w-[25vw] h-[500px] m-[15px] rounded-[5px]">
+            <div className="relative flex flex-col text-left shadow-3xl w-[25vw] h-[500px] m-[15px] rounded-[5px]">
+            <span className="absolute top-[15px] left-[-5px] bg-blue-purple text-black text-[18px] py-[5px] px-[15px] rounded-r-[25px]"> Medical </span>
                 <img src="https://images.squarespace-cdn.com/content/v1/57220f5e555986178fe7d299/1559237277293-XTFNZ0DW3V968ET4CDMX/Current%2BTuirtion%2BCenter%2B1.jpg?format=1500w" alt="" className="w-full h-[45%]" />
                 <div className="p-[20px]">
                     <h3 className="text-[18px] mb-[10px]"> Empower children from disadvantaged communities with quality education </h3>
