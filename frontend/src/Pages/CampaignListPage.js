@@ -4,7 +4,7 @@ import CampaignSection from '../Components/CampaignSection';
 import Footer from '../Components/Footer';
 import SignedInNavbar from '../Components/SignedInNavbar';
 
-const Index = ({connectWalletHandler}) => {
+const CampaignListPage = ({connectWalletHandler}) => {
     return (
         <div>
             <SignedInNavbar connectWalletHandler={connectWalletHandler} />
@@ -15,4 +15,4 @@ const Index = ({connectWalletHandler}) => {
     );
 }
 
-export default Index;
+export default CampaignListPage;
